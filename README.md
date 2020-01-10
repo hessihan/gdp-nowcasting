@@ -1,12 +1,12 @@
-## Nowcasting Japanese GDP with Machine Learning Techniques
-## 機械学習を用いた日本のGDPナウキャスト
+機械学習を用いた日本のGDPナウキャスト
+====
 
-### リアルタイムデータの構造
+## リアルタイムデータの構造
 
-### ナウキャストのフレームワーク
+## ナウキャストのフレームワーク
 各ナウキャストの疑似コードを載せる。
 
-### ファイルの概要
+## ファイルの概要
 * main.py
 * xcast.py
 * masterdata.pkl
