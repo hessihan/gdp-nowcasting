@@ -7,6 +7,6 @@
 各ナウキャストの疑似コードを載せる。
 
 ### ファイルの概要
-* main
-* xcast
-* masterdata
+* main.py
+* xcast.py
+* masterdata.pkl
