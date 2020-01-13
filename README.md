@@ -53,6 +53,7 @@ GDPナウキャストを行うために使うデータセット。ナウキャ�
 真正ナウキャスト用。予測の期間(testもvalidationも同じ長さ)、検証の回数を指定して、検証用のself.X_train, self.y_train, self.X_valid, self.y_validを定義する。
 * full_gen_increase_test_data(self)  
 真正ナウキャスト用。検証用データと同じ期間の長さでself.X_final_train, y_final_train, self.X_test, self.y_testを定義する。
+* full_fillnan(self)  
 
 ##### Attributes
 
