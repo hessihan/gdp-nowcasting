@@ -24,12 +24,12 @@ realnowcast.pyで定義したクラスを用いて、15日前、45日前、75日
 #### class realnowcast.Dataset(data="master_data_xarray.pkl")
 GDPナウキャストを行うために使うデータセット。ナウキャストのタイミングと設定によって異なる。
 ##### Parameters
-* data
+* data  
 デフォルトでmasterdata_data_xarray.pklを読み込む。
 ##### Methods
-* get_available_data(self, start_period='1994-Q1')
+* get_available_data(self, start_period='1994-Q1')  
 用いるデータの開始時点を指定して抽出する。
-* pseudo_extract_vintage(self)
+* pseudo_extract_vintage(self)  
 疑似ナウキャスト用。self.vintageを参照して1シート抽出し、self.dataとする。
 * pseudo_log_diff(self)
 疑似ナウキャスト用。self.dataを対数差分変換する。サンプルサイズが1つ減る。
