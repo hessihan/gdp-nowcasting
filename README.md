@@ -17,10 +17,10 @@
 
 
 ## ファイルの概要
-* main.py
+### main.py
 realnowcast.pyで定義したクラスを用いて、15日前、45日前、75日前の疑似・真正ナウキャストを実行する。realnowcast.Mode.show()でプリントされる結果が表示される。検証(バリデーション)で用いるハイパーパラメータのリストを与えて実行する。各検証の様子をvisualize.pyで定義した関数を用いて図示する。
 
-* realnowcast.py
+### realnowcast.py
 
-* masterdata_data_xarray.pkl
+### masterdata_data_xarray.pkl
 OECD.statsより入手したリアルタイムデータを編集して、xarray.Datasetオブジェクトとして保存した。
